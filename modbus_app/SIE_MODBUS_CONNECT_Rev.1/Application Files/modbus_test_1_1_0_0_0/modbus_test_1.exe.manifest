@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="modbus_test_1.exe" version="1.0.0.0" publicKeyToken="dc060d658383eef5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="wolf-pack-battalion (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="modbus_test_1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="modbus_test_1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="modbus_test_1.exe" size="17880">
+      <assemblyIdentity name="modbus_test_1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9vgEiLrzXSbuwZ3UMgZX9DlKRRhFKBpqPKHnGY5vuBU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NModbus.dll" size="114176">
+      <assemblyIdentity name="NModbus" version="3.0.81.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zXTAw0FpoTklicX9o8BWPBBEv382s6XahcH7wzffxk4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NModbus4.dll" size="75776">
+      <assemblyIdentity name="NModbus4" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uCafn2NyP3TCGmcUwwaCGmZu/LbOVxEOKnsoRcLxQDE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="modbus_test_1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="wolf-pack-battalion (1).ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DCJrUyJyorkRvEQRH+I5JABJTERND5U3j2WmRGvZp5U=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-IMLKKNJ\User" issuerKeyHash="0dd84f2e946fb82fd18db369d263ac297a3cf608" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vgk5wtWuLG7oV026XUe2Q3T3dZj3+bEJMCcb7fFm/Fw=</DigestValue></Reference></SignedInfo><SignatureValue>Nw+UdCzwI0EaF/xZa0jYtkdmdUGZiPScMgYIXToymavddBJSSQzhPAdrz2fIvc8+Tw/VgIOBRBH5JJMG03r8zH3hIfYHGoqbgP/HxK5qGfBD+nw0XH5daiAlpfhDWxf9NNOS5kO225DeGMLzSDSKWTCPh1HfZRvsEsUWI0xB7y8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3GQUsI5OUN3z/XJBxFKe6ydr9W5inOdRjH6j2gv1Y2B6zcPCSBQDH2MgUxoh3eEfq8JV22qU8cI58TCwkK1Qas4xwHCjax/ptwXoV9mFnkBmx5cAIL8aOfVER/DrI8yV4XDpEWOaEBQnxYbSC7CbW6iH9HBb1soLxaLjKE8vo+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5cfc66f1ed1b273009b1f9f79875f77443b6475dba4d57e86e2caed5c23909be" Description="" Url=""><as:assemblyIdentity name="modbus_test_1.exe" version="1.0.0.0" publicKeyToken="dc060d658383eef5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IMLKKNJ\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JfiYL896AFHF/EYwDktYHFqHCQOryOsz9dbmvyf1tRc=</DigestValue></Reference></SignedInfo><SignatureValue>vOcFq+BCfZ7L0o7A5F5CWrWo13yNoyzydJhoP7783LEbJsXRH9lzNIWCXTSxOchhrpEwGKSmoBjLfxlr+bYg49zjqkdZc5rTGuFXgQox0ZSPB9kw9IfcIeIJ0QIWGN0BkInocQhuavl63fNg325gY+xMrDVpENGOWD2cxKlyRTY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3GQUsI5OUN3z/XJBxFKe6ydr9W5inOdRjH6j2gv1Y2B6zcPCSBQDH2MgUxoh3eEfq8JV22qU8cI58TCwkK1Qas4xwHCjax/ptwXoV9mFnkBmx5cAIL8aOfVER/DrI8yV4XDpEWOaEBQnxYbSC7CbW6iH9HBb1soLxaLjKE8vo+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQGoi8S4Hh2bxG+p5tINC8+TANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEkATQBMAEsASwBOAEoAXABVAHMAZQByMB4XDTI0MDIyOTE3MDAzM1oXDTI1MDIyODIzMDAzM1owMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBJAE0ATABLAEsATgBKAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3GQUsI5OUN3z/XJBxFKe6ydr9W5inOdRjH6j2gv1Y2B6zcPCSBQDH2MgUxoh3eEfq8JV22qU8cI58TCwkK1Qas4xwHCjax/ptwXoV9mFnkBmx5cAIL8aOfVER/DrI8yV4XDpEWOaEBQnxYbSC7CbW6iH9HBb1soLxaLjKE8vo+0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAJREnKY3ic0+zRZBJ/4lFannk04BIvxZJvlr6qhSG+YYZYZfdBh7QqoOnR8hzDRboTvWM4pSVviay4IJWtgYT9h6cNdY+THlCTKUDtV1/w2gJt0LYzYzLJuPJcOQg4BRzKbfpTpjK28Lnd88wFLIqqf1bUKTHplqDBjALyC0TADA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
